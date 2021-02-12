@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -62% 50%, 148% -42%;
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 18px;
+}
+section {
+    box-shadow: 2px 50px 100px 5px rgba(16, 50, 71, 0.3);
+    border-radius: 4%;
+    height: 23rem;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin: auto;
+    transform: translate(50%, -50%);
+    width: 22rem;
+    text-align: center;
+    background-color: white;
+}
+.card-pattern {
+    background-image: url(images/bg-pattern-card.svg);
+    background: cover;
+    border-radius: 15px 15px 0 0;
+    height: 130.5px;
+}
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+/* personal data styles */
+.profile {
+    margin-top: 80px;
+}
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+.age {
+    color: hsl(0, 0%, 59%);
+}
+.location {
+    font-size: 13px;
+    color: hsl(0, 0%, 59%);
+}
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+    
+}
+.social p {color: hsl(227, 10%, 46%)}
+/* for mobile device */
+@media (max-width: 1100px) {
+    body {
+      background-position: 120% 70%, -20% -35%;
+    }
+  } ;
